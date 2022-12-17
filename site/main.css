@@ -1,0 +1,151 @@
+html {
+    font-size: 20px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#navbarNav {
+    color: black;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+section{
+    padding: 50px 0;
+}
+
+.navbar-nav .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+#headerwrap {
+    background: url(img/2560h900-3-2560x900.webp) no-repeat center center;
+    background-size: cover; 
+    background-position: bottom center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+#headerwrap h1{
+    padding-top: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.hero {
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+    padding-bottom: 60px;
+    
+}
+
+.hero__active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.hero-text {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #292929;
+}
+
+.foto {
+    margin-bottom: 20px;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    
+    
+}
+
+.container-hero {
+    background-color: #ffffff;
+    color: #292929;
+    margin-bottom: 50px;
+}
+
+.foto img {
+    max-height: 250px;
+
+}
+
+.booking__inner{
+    background-color: #212529;
+    border-radius: 20px;
+    max-width: 720px;
+    margin-left: 240px;
+    padding:0 60px 0 60px;
+    box-shadow: 0px 0px 250px 216px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+  
+  .booking__logo{
+    padding-top: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+    
+  .booking__text{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+  }
+  
+  .booking__text+.booking__text{
+    margin-top: 20px;
+  }
+  
+  .booking__input--submit{
+    
+    margin-top: 25px;
+    margin-bottom: 40px;
+    background-color: #4b5560;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 17px 57px;
+  }
+
+.feedback {
+    color: #fff;
+}
+
+.booking {
+    background-color: #2f343a;
+}
+
+
+
+ 
+
+
